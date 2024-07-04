@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thicoritas Tools</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            color: #007BFF;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            max-width: 1000px;
+            flex-wrap: wrap;
+        }
+        .box {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+            width: 40%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .box h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .box p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .box a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007BFF;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .box a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Thicoritas Tools</h1>
+    <div class="box-container">
+        <div class="box">
+            <h2>Market Price</h2>
+            <p>Check the market price of gyatt picture in real-time.</p>
+            <a href="https://thicoritas.github.io/market-price/" target="_blank">Go to Market Price</a>
+        </div>
+        <div class="box">
+            <h2>Thicoritre Converter</h2>
+            <p>Convert text to Thicoritre language and vice versa.</p>
+            <a href="https://thicoritas.github.io/thicoritre/" target="_blank">Go to Thicoritre Converter</a>
+        </div>
+    </div>
+</body>
+</html>
